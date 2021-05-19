@@ -1,0 +1,230 @@
+Highcharts.chart('container', {
+
+    title: {
+        text: 'Electricity Exports in Europe | Blue: Nuclear countries; Red: Non-nuclear countries'
+    },
+
+   plotOptions: {
+        series: {
+            colorByPoint: false
+        }
+    },
+    
+    
+  
+    series: [{
+        keys: ['from', 'to', 'weight', 'color'],
+        data: [
+           	['Austria', 'Czech Republic', 113, '#FF0000'],
+            ['Austria', 'Germany', 3984, '#FF0000'],
+            ['Austria', 'Hungary', 3753, '#FF0000'],
+            ['Austria', 'Italy', 1417, '#FF0000'],
+            ['Austria', 'Slovenia', 4096.183, '#FF0000'],
+            ['Austria', 'Switzerland', 5464.001, '#FF0000'],
+            ['Austria', 'Liechtenstein', 302.147, '#FF0000'],
+            ['Belgium', 'France', 2192.2, '#0000FF'],
+            ['Belgium', 'Luxembourg', 339.6, '#0000FF'],
+            ['Belgium', 'Netherlands', 1775.5, '#0000FF'],
+            ['Belgium', 'United Kingdom', 1.1, '#0000FF'],
+            ['Czech Republic', 'Austria', 10864.125, '#0000FF'],
+            ['Czech Republic', 'Germany', 4902.845, '#0000FF'],
+            ['Czech Republic', 'Poland', 635.313, '#0000FF'],
+            ['Czech Republic', 'Slovak Republic', 9078.22, '#0000FF'],
+            ['Denmark', 'Germany', 4504.097, '#FF0000'],
+            ['Denmark', 'Norway', 2617.143, '#FF0000'],
+            ['Denmark', 'Sweden', 3288.027, '#FF0000'],
+            ['Estonia', 'Finland', 1127, '#FF0000'],
+            ['Estonia', 'Latvia', 3823, '#FF0000'],
+            ['Finland', 'Estonia', 2367, '#0000FF'],
+            ['Finland', 'Norway', 74, '#0000FF'],
+            ['Finland', 'Sweden', 171, '#0000FF'],
+            ['France', 'Belgium', 10772, '#0000FF'],
+            ['France', 'Germany', 10978, '#0000FF'],
+            ['France', 'Italy', 15379, '#0000FF'],
+            ['France', 'Luxembourg', 1295, '#0000FF'],
+            ['France', 'Spain', 15502, '#0000FF'],
+            ['France', 'Switzerland', 8025.281, '#0000FF'],
+            ['France', 'United Kingdom', 14351, '#0000FF'],
+            ['France', 'Andorra', 232, '#0000FF'],
+            ['Germany', 'Austria', 15356, '#0000FF'],
+            ['Germany', 'Czech Republic', 7581, '#0000FF'],
+            ['Germany', 'France', 2535, '#0000FF'],
+            ['Germany', 'Netherlands', 20914, '#0000FF'],
+            ['Germany', 'Poland', 7055, '#0000FF'],
+            ['Greece', 'Italy', 1078, '#FF0000'],
+            ['Greece', 'Turkey', 11, '#FF0000'],
+            ['Greece', 'Albania', 919, '#FF0000'],
+            ['Greece', 'Bulgaria', 8, '#FF0000'],
+            ['Greece', 'Republic of North Macedonia', 256, '#FF0000'],
+            ['Hungary', 'Austria', 591, '#0000FF'],
+            ['Hungary', 'Slovak Republic', 60, '#0000FF'],
+            ['Hungary', 'Croatia', 2750, '#0000FF'],
+            ['Hungary', 'Romania', 588, '#0000FF'],
+            ['Hungary', 'Serbia', 271, '#0000FF'],
+            ['Hungary', 'Ukraine', 5, '#0000FF'],
+            ['Ireland', 'United Kingdom', 1649.249, '#FF0000'],
+            ['Italy', 'Austria', 23.938, '#FF0000'],
+            ['Italy', 'France', 805.875, '#FF0000'],
+            ['Italy', 'Greece', 610.592, '#FF0000'],
+            ['Italy', 'Slovenia', 60.014, '#FF0000'],
+            ['Italy', 'Switzerland', 1139.33, '#FF0000'],
+            ['Italy', 'Malta', 631.666, '#FF0000'],
+            ['Latvia', 'Estonia', 43.68, '#FF0000'],
+            ['Latvia', 'Lithuania', 4217.807, '#FF0000'],
+            ['Latvia', 'Russian Federation', 3.314, '#FF0000'],
+            ['Lithuania', 'Poland', 1615.2, '#FF0000'],
+            ['Lithuania', 'Sweden', 220, '#FF0000'],
+            ['Lithuania', 'Belarus', 505.6, '#FF0000'],
+            ['Lithuania', 'Latvia', 722.3, '#FF0000'],
+            ['Lithuania', 'Russian Federation', 151.9, '#FF0000'],
+            ['Luxembourg', 'Belgium', 146.808, '#FF0000'],
+            ['Luxembourg', 'Germany', 1244.868, '#FF0000'],
+            ['Netherlands', 'Belgium', 10783.919, '#0000FF'],
+            ['Netherlands', 'Germany', 734.779, '#0000FF'],
+            ['Netherlands', 'Norway', 333.871, '#0000FF'],
+            ['Netherlands', 'United Kingdom', 6932.095, '#0000FF'],
+            ['Norway', 'Denmark', 5041.579, '#FF0000'],
+            ['Norway', 'Finland', 190.684, '#FF0000'],
+            ['Norway', 'Netherlands', 4020.68, '#FF0000'],
+            ['Norway', 'Sweden', 9235.907, '#FF0000'],
+            ['Norway', 'Russian Federation', 0.052, '#FF0000'],
+            ['Poland', 'Czech Republic', 3771.644, '#FF0000'],
+            ['Poland', 'Germany', 20.674, '#FF0000'],
+            ['Poland', 'Slovak Republic', 3235.498, '#FF0000'],
+            ['Poland', 'Sweden', 376.137, '#FF0000'],
+            ['Poland', 'Lithuania', 717.348, '#FF0000'],
+            ['Portugal', 'Spain', 8324.536, '#FF0000'],
+            ['Slovak Republic', 'Czech Republic', 108, '#0000FF'],
+            ['Slovak Republic', 'Hungary', 6813, '#0000FF'],
+            ['Slovak Republic', 'Poland', 28, '#0000FF'],
+            ['Slovak Republic', 'Ukraine', 1797, '#0000FF'],
+            ['Slovenia', 'Austria', 398.032, '#0000FF'],
+            ['Slovenia', 'Italy', 6854.174, '#0000FF'],
+            ['Slovenia', 'Croatia', 2180.196, '#0000FF'],
+            ['Spain', 'France', 3467, '#0000FF'],
+            ['Spain', 'Portugal', 5669, '#0000FF'],
+            ['Spain', 'Andorra', 211, '#0000FF'],
+            ['Spain', 'Morocco', 3569, '#0000FF'],
+            ['Sweden', 'Denmark', 4257, '#0000FF'],
+            ['Sweden', 'Finland', 13589, '#0000FF'],
+            ['Sweden', 'Germany', 1304, '#0000FF'],
+            ['Sweden', 'Norway', 4305, '#0000FF'],
+            ['Sweden', 'Poland', 3097, '#0000FF'],
+            ['Sweden', 'Lithuania', 2873, '#0000FF'],
+            ['Switzerland', 'Austria', 1198, '#0000FF'],
+            ['Switzerland', 'France', 4179, '#0000FF'],
+            ['Switzerland', 'Germany', 4423, '#0000FF'],
+            ['Switzerland', 'Italy', 22773, '#0000FF'],
+            ['Switzerland', 'Liechtenstein', 34, '#0000FF'],
+            ['Turkey', 'Greece', 2911.968, '#0000FF'],
+            ['Turkey', 'Bulgaria', 89.565, '#0000FF'],
+            ['Turkey', 'Georgia', 105.927, '#0000FF'],
+            ['Turkey', 'Syrian Arab Republic', 4.417, '#0000FF'],
+            ['United Kingdom', 'France', 396.545, '#0000FF'],
+            ['United Kingdom', 'Ireland', 1621.087, '#0000FF'],
+            ['United Kingdom', 'Netherlands', 207.132, '#0000FF']
+
+
+            
+        ],
+        
+         nodes: [{
+            id: 'Austria',
+            color: '#FF0000'
+        },{
+            id: 'Denmark',
+            color: '#FF0000'
+        },{
+            id: 'Estonia',
+            color: '#FF0000'
+        },{
+            id: 'Greece',
+            color: '#FF0000'
+        }, {
+            id: 'Ireland',
+            color: '#FF0000'
+        },{
+            id: 'Italy',
+            color: '#FF0000'
+        },{
+            id: 'Latvia',
+            color: '#FF0000'
+        },{
+            id: 'Lithuania',
+            color: '#FF0000'
+        },{
+            id: 'Luxembourg',
+            color: '#FF0000'
+        },{
+            id: 'Norway',
+            color: '#FF0000'
+        },{
+            id: 'Poland',
+            color: '#FF0000'
+        },{
+            id: 'Portugal',
+            color: '#FF0000'
+        },
+        {
+            id: 'Belgium',
+            color: '#0000FF'
+            
+        },{
+            id: 'Czech Republic',
+            color: '#0000FF'
+        },{
+            id: 'Finland',
+            color: '#0000FF'
+        },{
+            id: 'France',
+            color: '#0000FF'
+        },{
+            id: 'Germany',
+            color: '#0000FF'
+        },{
+            id: 'Hungary',
+            color: '#0000FF'
+        },{
+            id: 'Netherlands',
+            color: '#0000FF'
+        },{
+            id: 'Slovak Republic',
+            color: '#0000FF'
+        },{
+            id: 'Slovenia',
+            color: '#0000FF'
+        },{
+            id: 'Spain',
+            color: '#0000FF'
+        },{
+            id: 'Sweden',
+            color: '#0000FF'
+        },{
+            id: 'Switzerland',
+            color: '#0000FF'
+        },{
+            id: 'Turkey',
+            color: '#0000FF'
+        },{
+            id: 'United Kingdom',
+            color: '#0000FF'
+        },
+        
+        ],
+        
+       	type: 'dependencywheel',
+        name: 'Dependency wheel series',
+        dataLabels: {
+            color: '#333',
+            textPath: {
+                enabled: false,
+                attributes: {
+                    dy: 5
+                }
+            },
+            distance: 10
+        },
+        size: '100%'
+    }]
+
+});
